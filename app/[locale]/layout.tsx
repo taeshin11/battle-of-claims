@@ -6,8 +6,29 @@ import type { Metadata } from 'next'
 import '../globals.css'
 
 export const metadata: Metadata = {
-  title: 'Battle of Claims — Wartime Misinformation Tracker | War Claim Verification Database',
-  description: 'Searchable database of viral war claims with verification status. Track misinformation in Ukraine, Gaza, Sudan and other conflicts.',
+  title: {
+    default: 'Battle of Claims | Real-Time Intelligence',
+    template: '%s | Battle of Claims'
+  },
+  description: 'Analyzing territorial disputes, boundary conflicts, and competing sovereignty claims between nations',
+  keywords: 'territorial disputes, border claims, sovereignty conflict, disputed territory, international claims',
+  openGraph: {
+    type: 'website',
+    siteName: 'Battle of Claims',
+    title: 'Battle of Claims | Real-Time Intelligence',
+    description: 'Analyzing territorial disputes, boundary conflicts, and competing sovereignty claims between nations',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Battle of Claims',
+    description: 'Analyzing territorial disputes, boundary conflicts, and competing sovereignty claims between nations',
+  },
+  verification: {
+    google: 'add-your-google-site-verification-here',
+  },
+  other: {
+    'google-adsense-account': 'ca-pub-add-your-publisher-id-here',
+  },
 }
 
 export default async function LocaleLayout({
