@@ -65,6 +65,18 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <p className="text-slate-600 leading-relaxed">Conflict data is inherently sensitive and often politically contested. We recognize this complexity and strive to present information in a factual, non-partisan manner. Our goal is not to advocate for any particular political position, but to ensure that accurate information is available to support informed discussion, humanitarian response, and evidence-based policy. The numbers we track represent real human lives — and that responsibility guides everything we do.</p>
             </section>
 
+            <section className="bg-white rounded-2xl border border-slate-100 p-6">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">Our Team &amp; Background</h2>
+              <p className="text-slate-600 leading-relaxed mb-4">The platform was developed by a team of data engineers, journalists, and security researchers passionate about making conflict intelligence accessible to the public. Our backgrounds span open-source intelligence (OSINT), data visualization, and international security studies.</p>
+              <p className="text-slate-600 leading-relaxed">We are not affiliated with any government, military organization, or political group. Our work is funded entirely through advertising revenue, which allows us to remain independent and freely accessible to all.</p>
+            </section>
+
+            <section className="bg-white rounded-2xl border border-slate-100 p-6">
+              <h2 className="text-2xl font-semibold text-slate-800 mb-4">How We Differ From Traditional Media</h2>
+              <p className="text-slate-600 leading-relaxed mb-4">Traditional news media covers conflicts reactively — a story today, silence tomorrow. Battle of Claims provides continuous, structured monitoring that persists beyond news cycles. Where newspapers provide narrative, we provide data. Where TV coverage provides emotion, we provide quantified context.</p>
+              <p className="text-slate-600 leading-relaxed">Our structured data format also makes it easy for researchers to track trends over time, compare conflicts across regions, and identify patterns that would be invisible in unstructured reporting.</p>
+            </section>
+
             <section className="bg-white rounded-2xl border border-slate-200 p-6">
               <h2 className="text-xl font-semibold text-slate-800 mb-3">Contact Us</h2>
               <p className="text-slate-600">For inquiries, corrections, or partnership opportunities, please reach out at <span className="text-purple-600 font-medium">contact@battle-of-claims.vercel.app</span>. We welcome feedback from researchers, journalists, and organizations working in conflict-affected areas.</p>
