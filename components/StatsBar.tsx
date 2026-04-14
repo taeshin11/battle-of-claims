@@ -7,22 +7,24 @@ export default function StatsBar({ claims }: { claims: Claim[] }) {
   const misleadingCount = claims.filter(c => c.status === 'misleading').length
   const unverifiedCount = claims.filter(c => c.status === 'unverified').length
 
-  const stats = [
-    { label: 'Total Claims', value: total, color: 'bg-gray-50 border-gray-200 text-gray-800' },
-    { label: 'Verified True', value: trueCount, color: 'bg-green-50 border-green-200 text-green-800' },
-    { label: 'Debunked False', value: falseCount, color: 'bg-red-50 border-red-200 text-red-800' },
-    { label: 'Misleading', value: misleadingCount, color: 'bg-orange-50 border-orange-200 text-orange-800' },
-    { label: 'Unverified', value: unverifiedCount, color: 'bg-gray-50 border-gray-200 text-gray-700' },
-  ]
-
   return (
-    <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
-      {stats.map(s => (
-        <div key={s.label} className={`rounded-lg border p-4 ${s.color}`}>
-          <div className="text-2xl font-bold">{s.value}</div>
-          <div className="text-xs mt-1 opacity-70">{s.label}</div>
-        </div>
-      ))}
+    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 my-6">
+      <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-xl p-4 text-white text-center shadow-lg">
+        <div className="text-2xl font-bold">{total}</div>
+        <div className="text-slate-300 text-xs mt-1">Total Claims</div>
+      </div>
+      <div className="bg-gradient-to-br from-red-500 to-red-600 rounded-xl p-4 text-white text-center shadow-lg shadow-red-500/25">
+        <div className="text-2xl font-bold">{falseCount}</div>
+        <div className="text-red-100 text-xs mt-1">Debunked False</div>
+      </div>
+      <div className="bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl p-4 text-white text-center shadow-lg shadow-orange-500/25">
+        <div className="text-2xl font-bold">{misleadingCount}</div>
+        <div className="text-orange-100 text-xs mt-1">Misleading</div>
+      </div>
+      <div className="bg-gradient-to-br from-slate-500 to-slate-600 rounded-xl p-4 text-white text-center shadow-lg">
+        <div className="text-2xl font-bold">{unverifiedCount}</div>
+        <div className="text-slate-200 text-xs mt-1">Unverified</div>
+      </div>
     </div>
   )
 }
