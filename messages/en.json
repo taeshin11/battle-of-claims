@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Battle of Claims","subtitle":"Wartime Misinformation Tracker","description":"Searchable database of viral war claims with verification status"},
+  "stats": {"total":"Total Claims","true_claims":"Verified True","false_claims":"Debunked False","unverified":"Unverified"},
+  "table": {"date":"Date","claim":"Claim","status":"Status","conflict":"Conflict","source":"Source"},
+  "filter": {"all":"All","true":"True","false":"False","misleading":"Misleading","unverified":"Unverified","search":"Search claims...","all_conflicts":"All Conflicts"},
+  "footer": {"tagline":"Independent war claim verification","today_visits":"Today","total_visits":"Total"},
+  "nav": {"home":"Home","about":"About"}
+}

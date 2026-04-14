@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Kampf der Behauptungen","subtitle":"Kriegs-Desinformations-Tracker","description":"Durchsuchbare Datenbank viraler Kriegsbehauptungen mit Verifizierungsstatus"},
+  "stats": {"total":"Gesamtbehauptungen","true_claims":"Verifiziert Wahr","false_claims":"Als Falsch Entlarvt","unverified":"Ungeprüft"},
+  "table": {"date":"Datum","claim":"Behauptung","status":"Status","conflict":"Konflikt","source":"Quelle"},
+  "filter": {"all":"Alle","true":"Wahr","false":"Falsch","misleading":"Irreführend","unverified":"Ungeprüft","search":"Behauptungen suchen...","all_conflicts":"Alle Konflikte"},
+  "footer": {"tagline":"Unabhängige Überprüfung von Kriegsbehauptungen","today_visits":"Heute","total_visits":"Gesamt"},
+  "nav": {"home":"Start","about":"Über uns"}
+}

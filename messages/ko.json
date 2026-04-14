@@ -1,0 +1,8 @@
+{
+  "home": {"title":"주장의 전투","subtitle":"전시 허위정보 추적기","description":"바이럴 전쟁 주장의 검증 가능한 데이터베이스"},
+  "stats": {"total":"전체 주장","true_claims":"사실로 검증","false_claims":"허위로 판명","unverified":"미검증"},
+  "table": {"date":"날짜","claim":"주장","status":"상태","conflict":"분쟁","source":"출처"},
+  "filter": {"all":"전체","true":"사실","false":"허위","misleading":"오해의 소지","unverified":"미검증","search":"주장 검색...","all_conflicts":"모든 분쟁"},
+  "footer": {"tagline":"독립적 전쟁 주장 검증","today_visits":"오늘","total_visits":"전체"},
+  "nav": {"home":"홈","about":"소개"}
+}

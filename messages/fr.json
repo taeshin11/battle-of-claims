@@ -1,0 +1,8 @@
+{
+  "home": {"title":"Bataille des Affirmations","subtitle":"Traqueur de Désinformation en Temps de Guerre","description":"Base de données des affirmations virales de guerre avec statut de vérification"},
+  "stats": {"total":"Total des Affirmations","true_claims":"Vérifiées Vraies","false_claims":"Réfutées Fausses","unverified":"Non Vérifiées"},
+  "table": {"date":"Date","claim":"Affirmation","status":"Statut","conflict":"Conflit","source":"Source"},
+  "filter": {"all":"Tout","true":"Vrai","false":"Faux","misleading":"Trompeur","unverified":"Non Vérifié","search":"Rechercher des affirmations...","all_conflicts":"Tous les Conflits"},
+  "footer": {"tagline":"Vérification indépendante des affirmations de guerre","today_visits":"Aujourd'hui","total_visits":"Total"},
+  "nav": {"home":"Accueil","about":"À Propos"}
+}

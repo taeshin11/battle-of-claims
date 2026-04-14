@@ -1,0 +1,8 @@
+{
+  "home": {"title":"主张之战","subtitle":"战时虚假信息追踪器","description":"可搜索的病毒性战争主张验证数据库"},
+  "stats": {"total":"总主张数","true_claims":"已验证为真","false_claims":"已揭穿为假","unverified":"未经验证"},
+  "table": {"date":"日期","claim":"主张","status":"状态","conflict":"冲突","source":"来源"},
+  "filter": {"all":"全部","true":"真实","false":"虚假","misleading":"误导性","unverified":"未验证","search":"搜索主张...","all_conflicts":"所有冲突"},
+  "footer": {"tagline":"独立战争主张验证","today_visits":"今日","total_visits":"总计"},
+  "nav": {"home":"首页","about":"关于"}
+}

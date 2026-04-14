@@ -1,0 +1,8 @@
+{
+  "home": {"title":"主張の戦い","subtitle":"戦時中の偽情報トラッカー","description":"バイラル戦争主張の検証データベース"},
+  "stats": {"total":"総主張数","true_claims":"真実と検証","false_claims":"虚偽と判明","unverified":"未検証"},
+  "table": {"date":"日付","claim":"主張","status":"状態","conflict":"紛争","source":"情報源"},
+  "filter": {"all":"全て","true":"真実","false":"虚偽","misleading":"誤解を招く","unverified":"未検証","search":"主張を検索...","all_conflicts":"全紛争"},
+  "footer": {"tagline":"独立した戦争主張検証","today_visits":"今日","total_visits":"合計"},
+  "nav": {"home":"ホーム","about":"概要"}
+}
