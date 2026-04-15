@@ -5,6 +5,8 @@ import { getMessages } from 'next-intl/server'
 import type { Metadata } from 'next'
 import '../globals.css'
 import { FeedbackButton } from '@/components/FeedbackButton'
+import Script from 'next/script'
+import AdMobileSticky from '@/components/ads/AdMobileSticky'
 
 export const metadata: Metadata = {
   title: {
@@ -25,10 +27,10 @@ export const metadata: Metadata = {
     description: 'Analyzing territorial disputes, boundary conflicts, and competing sovereignty claims between nations',
   },
   verification: {
-    google: 'add-your-google-site-verification-here',
+    google: 'WddgcbVJsL2BGHNAje5m6DK56IcR0Mw5UOqozI2Xtrc',
   },
   other: {
-    'google-adsense-account': 'ca-pub-add-your-publisher-id-here',
+    'google-adsense-account': 'ca-pub-7098271335538021',
     'indexnow-key': 'battle-of-claims-2025',
   },
 }
@@ -76,7 +78,14 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           {children}
         </NextIntlClientProvider>
-        <FeedbackButton siteName="Battle of Claims" siteUrl="https://battle-of-claims.vercel.app" />
+        <AdMobileSticky />
+      <FeedbackButton siteName="Battle of Claims" siteUrl="https://battle-of-claims.vercel.app" />
+      <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7098271335538021"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
